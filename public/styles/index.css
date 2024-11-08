@@ -898,6 +898,14 @@ body {
    margin-left: -40px;
    
 }
+.offcanvas {
+  width: 75%; /* Adjust as needed */
+  max-width: 300px; /* Ensure it doesn't take too much space */
+}
+body.offcanvas-open {
+  overflow: hidden;
+}
+
 #home{
   margin-top: -40px;
 }
