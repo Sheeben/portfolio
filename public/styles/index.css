@@ -756,6 +756,13 @@ body {
 /* Portrait Mode (Mobile) */
 @media screen and (orientation:portrait){
 
+  
+
+
+.fade-skill{
+  animation: none;
+}
+
   body {
     overflow-x: hidden;
   }
