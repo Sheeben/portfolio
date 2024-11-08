@@ -900,7 +900,8 @@ body {
 }
 .offcanvas {
   width: 75%; /* Adjust as needed */
-  max-width: 300px; /* Ensure it doesn't take too much space */
+  max-width: 300px;
+  margin-left: -50%; /* Ensure it doesn't take too much space */
 }
 body.offcanvas-open {
   overflow: hidden;
