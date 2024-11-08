@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../src/styles/index.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="div1">
+    <header>
+      <nav>
+        <div class="logo">
+          <span class="bi bi-code-square text-light" style="font-size: 50px; margin-left: -90px;"></span>
+        </div>
+
+             
+
+                  <div id="hide" >
+                          <div>
+                            <button class="bi bi-justify btn btn-light fs-2" data-bs-target="#sidebar" data-bs-toggle="offcanvas"></button>
+                          </div>
+                            <div class="offcanvas offcanvas-end w-50 h-50 mt-4" id="sidebar">
+                              <div class="offcanvas-header" style="background-color: #9400CF; color: white;">
+                                  <h2 class="text-capitalize">Menu</h2>
+                                  <button class="btn btn-close btn btn-close-white" data-bs-dismiss="offcanvas"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                  
+                                    <ul class="nav-links text-dark">
+                                      <li><a href="#home" >Home</a></li>
+                                      <li><a href="#about" >About</a></li>
+                                      <li><a href="#services" >Services</a></li>
+                                      <li><a href="#skills" >Skills</a></li>
+                                      <li><a href="#projects">Projects</a></li>
+                                      <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                  
+                              </div>
+                          </div>
+                  </div>
+
+        
+
+                    <div id="all-nav">
+                      <ul class="nav-links">
+                        <li><a href="#home" >Home</a></li>
+                        <li><a href="#about" >About</a></li>
+                        <li><a href="#services" >Services</a></li>
+                        <li><a href="#skills" >Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+      </nav>
+    </header>
+  
+    <!-- Hero Section (Home) -->
+    <section id="home">
+        <div class="hero-content">
+          <p class="intro">Hello, it's me</p>
+          <h1 class="name">Sheetal</h1>
+          <p class="para">And I'm a <span class="highlight" id="changing-title"></span></p>
+          <p class="title">Creating modern, responsive websites with a focus on user experience.</p>
+          <a href="../public/docs/Sheetal-Front-End-Developer.pdf" download="Sheetal-Front-End-Developer.pdf">
+            <button class="btn btn-light" id="download">Download Resume</button>
+          </a>
+          <div class="social-links mt-5">
+            <span id="text" class="bi bi-patch-check   me-5"><span>Available On</span></span>
+            <a href="https://www.linkedin.com/in/sheetal-bdr-8180b3266/" class="text-light"><span class="bi bi-linkedin"></span></a>
+            <a href="https://github.com/Sheeben" class="text-light"><span class="bi bi-github"></span></a>
+            <a href="https://app.netlify.com/teams/sheeben/sites" class="text-light"><span class="bi bi-diamond-fill"></span></a>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="../public/images/IMG-20240911-WA0001[1].png">
+        </div>
+    </section>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" style="height: 50vh;">
+      <h2>About Me</h2>
+      <p class="about-title">Crafting dynamic web experiences from start to finish. Specializing in <br>
+        front-end design, I bring together creativity and technical expertise to <br>
+        build seamless, responsive websites.With proficiency in HTML, CSS,<br>
+        JavaScript, and various back-end languages and frameworks,<br>
+        I ensure your vision comes to life online.</p>
+        
+        <button type="button" class="btn  text-light fs-3 p-3 mt-5" style="background-color: #580F92;" data-bs-toggle="modal" data-bs-target="#knowmore" >Know More</button><br>
+        <div class="modal fade" id="knowmore">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                      <div class="modal-header" >
+                          <h3 class="bi bi-person-badge-fill"> Eduaction And Certification </h3>
+                          <button class="btn fs-4 btn-close btn-close-white"  data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                          
+                              <div>
+                                <h5>MCA 2021-2023</h5>
+                              <p>Gulbarga University</p>
+                              </div>
+                              <div>
+                                <h5>BCA 2018-2021</h5>
+                                <p>Gulbarga University</p>
+                              </div>
+                         
+                      </div>
+                        <div class="modal-footer" >
+                          
+                           <div id="div1">
+                            <p class="fs-5">FullStack Web Developer</p>
+                            <a  href="../public/docs/Full-Stack-Web-Certificate.pdf" target="_blank">
+                              <button class="btn btn-light  fs-3 " style="margin-bottom: 20px;" >View Certificate</button>
+                          </a>
+                         
+                          <p class="fs-5">Internship</p>
+                            <a href="../public/docs/Internship experience certificate Sheetal.pdf" target="_blank">
+                              <button class="btn btn-light  fs-3 "  style="margin-bottom: 20px;">View Certificate</button>
+                          </a><br><br><br>
+                           </div>
+                         
+                           <div id="div2">
+                            <p class="fs-5">Basic of Python</p>
+                            <a href="../public/docs/basic of python -infosys.pdf" target="_blank">
+                              <button class="btn btn-light  fs-3 " style="margin-bottom: 20px;">View Certificate</button>
+                          </a>
+                          <p class="fs-5">CSS3</p>
+                          <a href="../public/docs/css3 certificate.pdf" target="_blank">
+                            <button class="btn btn-light  fs-3" style="margin-bottom: 20px;">View Certificate</button>
+                        </a><br><br><br>
+                           </div>
+                          
+                        </div>
+                      
+              </div>
+          </div>
+      </div> 
+      
+
+
+            
+
+    </section>
+
+
+
+
+   
+
+
+    <!-- Services Section -->
+    <section id="services" class="fade-services">
+      <h2>My Services</h2>
+      <div class="div-s">
+
+        <div class="card me-4" >
+          <div class="div-icon"><span class="bi bi-gem"></span></div>
+          <div><h3>Responsive Design</h3></div>
+          <div>
+            <p class="para3">Crafting websites that look great and function seamlessly 
+              across all devices. Ensuring an optimal user experience
+              whether viewed on a phone, tablet, or desktop.</p>
+          </div>
+        </div>
+
+        <div class="card me-4">
+          <div class="div-icon"><span class="bi bi-front"></span></div>
+          <div><h3>Advanced Builder</h3></div>
+          <div><p class="para3">Utilizing the latest tools and technologies to build modern, 
+            feature-rich web applications. From layout to functionality, 
+            I create efficient and scalable solutions.</p></div>
+        </div>
+
+        <div class="card ">
+          <div class="div-icon"><span class="bi bi-suit-heart"></span></div>
+          <div><h3>Dedicated Support</h3></div>
+          <div><p class="para3">Providing ongoing assistance to ensure everything runs 
+            smoothly.Whether it’s fixing bugs or making updates, 
+            I’m here to help keep projects on track.</p></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-skill" style="height: 700%; margin-bottom: 20px;">
+
+          <h2 style="color: #9400CF; font-size: 50px; padding-bottom: 50px;">Skills</h2>
+
+          <div class="div-skills">
+        
+              
+
+                  <div class="row" >
+                  
+                  
+
+                                <div style="margin-top: 20px;">
+                                  
+                    
+                                  <div class="progress-container" id="container-one" >
+
+                                    <div class="progress-label" id="label-one">
+                                      HTML
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-one"></div>
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                                <div style="margin-top: -40px;">
+                              
+                                  
+                                  <div class="progress-container" id="container-two" >
+
+                                    <div class="progress-label " id="label-two"  >
+                                      CSS
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-two"></div>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                                <div style="margin-top: -60px;">
+                                  
+                                  <div class="progress-container" id="container-three" >
+
+                                    <div class="progress-label" id="label-three"  >
+                                      Bootstrap
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-three" ></div>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                                <div style="margin-top: -80px;">
+                      
+                                  <div class="progress-container" id="container-four" >
+
+                                    <div class="progress-label" id="label-four"  >
+                                      JavaScript
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" id="progress-bar-four"></div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div style="margin-top: -90px;">
+                                  
+                                  <div class="progress-container" id="container-five" >
+
+                                    <div class="progress-label" id="label-five"  >
+                                      React
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-five"></div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div style="margin-top: -100px;">
+                                  
+                                  <div class="progress-container" id="container-six" >
+
+                                    <div class="progress-label" id="label-six"  >
+                                      MongoDB
+                                    </div>
+
+                                    <div class="progress bg-dark" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-six"></div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div style="margin-top: -100px;">
+                                  
+                                  <div class="progress-container" id="container-seven" >
+
+                                    <div class="progress-label " id="label-seven" >
+                                      MySQL
+                                    </div>
+
+                                    <div class="progress" id="progress">
+                                      <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" id="progress-bar-seven"></div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                               
+
+                               
+
+                
+                  </div> 
+
+              
+
+          
+
+                <div id="div-one">
+                 
+                  <div id="div-two" >
+                        <div class="container">
+                          <div class="circular-progress">
+                              <span class="progress-value">0%</span>
+                          </div>
+                          <span class="text">Creativity</span>
+                        </div>
+
+                      <div class="container2">
+                        <div class="circular-progress2">
+                            <span class="progress-value2">0%</span>
+                        </div>
+                        <span class="text2">Communication</span>
+                      </div>
+ 
+                    </div>
+
+
+                    <div id="div-three">
+                      <div class="container3">
+                        <div class="circular-progress3">
+                            <span class="progress-value3">0%</span>
+                        </div>
+                        <span class="text3">Problem Solving </span>
+                      </div>
+
+                    <div class="container4">
+                      <div class="circular-progress4">
+                          <span class="progress-value4">0%</span>
+                      </div>
+                      <span class="text4">Teamwork</span>
+                    </div>
+
+                  </div>
+
+                  
+                      
+
+                </div>
+        
+          
+              
+          </div>
+
+    </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects01">
+
+    <div id="pro-img">
+
+      <img src="../public/images/iPhone-13-PRO-127.0.0.1.png" >
+
+    </div>
+
+    <div id="pro-info">
+        <h3>About</h3>
+        <h2>My Project Work</h2>
+
+        <p>
+          Before I get into the details of my projects, let me share a bit about<br>
+           how they came to life. Every project starts with a simple idea, but<br>
+            bringing it to reality takes a lot of hard work, coding, and sometimes<br>
+             even a bit of frustration. It’s a process of learning and improving with<br>
+              each step.<br><br><br><br>
+
+
+            I enjoy solving problems and creating things that work well and look<br>
+             good. My projects have helped me grow as a developer, and each<br>
+              one taught me something new. Below, you’ll find some of the<br>
+               projects I’ve worked on, where I applied my skills to build useful and<br>
+                responsive websites.
+        </p>
+    </div>
+
+  </section>
+
+  <section id="projects" >
+    <h2>Projects</h2>
+    
+      <!--first-->
+       <div id="div-pro-one" class="fade-project" >
+              <div class="card bg-light" id="card-div-one">
+                <img src="../public/images/ui3.avif" >
+                <p style="color: rgb(84, 81, 81); font-size: 25px; padding-top: 10px;">Project-1</p>
+                <p class="fs-5">PlayZing</p>
+                <span class="bi bi-quote"></span>
+                <a href="#" >Project Link </a>
+              </div>
+
+              <div class="card bg-light" id="card-div-two">
+                <img src="../public/images/ui3.avif" >
+                <p style="color: rgb(84, 81, 81); font-size: 25px; padding-top: 10px;">Project-2</p>
+                <p class="fs-5">B4uGO</p>
+                <span class="bi bi-quote" ></span>
+                <a href="#" >Project Link </a>
+              </div>
+        </div>
+
+        <!--second-->
+        <div id="div-pro-two"  class="fade-project" >
+              <div class="card bg-light " id="card-div-three">
+                  <img src="../public/images/ui3.avif" >
+                  <p style="color: rgb(84, 81, 81); font-size: 25px; padding-top: 10px;">Project-3</p>
+                  <p class="fs-5">TaskNest Hub</p>
+                  <span class="bi bi-quote" ></span>
+                    <a href="#" >Project Link </a>
+              </div>
+
+              <div class="card bg-light " id="card-div-four">
+                <img src="../public/images/ui3.avif" >
+                <p style="color: rgb(84, 81, 81); font-size: 25px; padding-top: 10px;">Project-4</p>
+                <p class="fs-5">ShebenStyle</p>
+                <span class="bi bi-quote"></span>
+                <a href="#">Project Link </a>
+              </div>
+        </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div>
+      <img src="../public/images/contact.png" >
+    </div>
+    
+    <div>
+      <h2>Get in Touch</h2>
+      <p class="fs-5" style="margin-top: -30px; padding-bottom: 20px;">If you’d like to discuss a project or just want to say hello, feel free to reach out!</p>
+    
+      <form action="https://api.web3forms.com/submit" method="POST" class="form ms-5" id="emailForm">
+
+        <input type="hidden" name="access_key" value="e722b967-4a1a-4078-8c0d-777eab775f37">     
+        <label class="form-label " for="subject">Name:</label>
+        <input class="form-control " type="text" name="name"  placeholder="Enter Name..." required><br>
+
+        <label class="form-label " for="email">Your Email:</label>
+        <input class="form-control " type="email" name="email"  placeholder="Enter Email..." required><br>
+        
+        <label class="form-label " for="message">Message:</label>
+        <textarea  class="form-control " name="message"  rows="4" required placeholder="Enter Message..."></textarea>
+        
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    </div>
+
+
+  </section>
+
+
+  <section style="height: 40vh; margin-top: 20px; background: rgb(88,15,146);
+    background: linear-gradient(90deg, rgba(88,15,146,1) 12%, rgba(255,0,199,1) 96%);">
+
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo">
+      <span class="bi bi-code-square"></span>
+    </div>
+    <div>
+      <p>Thanks for Visiting!</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/sheetal-bdr-8180b3266/" ><span class="bi bi-linkedin" ></span></a>
+      <a href="https://github.com/Sheeben" ><span class="bi bi-github"></span></a>
+      <a href="https://wa.me/919353192497"><span class="bi bi-whatsapp"></span></a>
+      <a href="https://app.netlify.com/teams/sheeben/sites" ><span class="bi bi-diamond-fill"></span></a>
+    </div>
+  </footer>
+
+  <script src="../src/scripts/script.js"></script>
+</body>
+</html>
