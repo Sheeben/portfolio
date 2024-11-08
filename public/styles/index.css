@@ -754,14 +754,16 @@ body {
 
 
 /* Portrait Mode (Mobile) */
-@media screen and (orientation:portrait){
+@media (max-width: 1080px){
 
   body {
+    
     overflow-x: hidden;
   }
   
   
   nav{
+    overflow-x: hidden;
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
