@@ -757,13 +757,17 @@ body {
 @media screen and (orientation:portrait){
 
   
-
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
 
 .fade-skill{
   animation: none;
 }
 
   body {
+    margin: 0;
     overflow-x: hidden;
   }
   
