@@ -905,9 +905,9 @@ body {
   margin-top: -40px;
  
 }
-#about{
-  margin-bottom: 50%;
-}
+ #about{
+  height: 80vh;
+ }
 
 .about-title{
  
@@ -926,7 +926,7 @@ body {
   color: #9400CF; 
   font-size: 50px; 
   padding-bottom: 20px;
-  margin-top: -50%;
+  margin-top: -40%;
 }
 
 .modal-footer #div1 {
