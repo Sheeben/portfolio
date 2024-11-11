@@ -813,9 +813,15 @@ body {
     display: block;
     margin-top: 15px;
     padding: 1px;
-    margin-left: 30px;
+    
 
    }
+   #sidebar{
+    width: 50%;
+    height: 50%;
+   
+   }
+   
    
    .logo{
     margin-left: 80px;
