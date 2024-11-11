@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
+    width: 100%;
     scroll-behavior: smooth;
   }
   .div1{
@@ -755,22 +755,18 @@ body {
 
 /* Portrait Mode (Mobile) */
 @media screen and (orientation:portrait){
-
-  
-  img, video, iframe {
-    max-width: 100%;
-    height: auto;
+  .fade-project{
+    animation: none;
   }
-
+  
+  
 .fade-skill{
   animation: none;
 }
-
-  body {
-    margin: 0;
-    overflow-x: hidden;
-  }
-  
+.fade-services{
+  animation: none;
+}
+ 
   
   nav{
     display: flex;
@@ -823,8 +819,9 @@ body {
    }
 
    #home {
+    
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 7fr 5fr;
     color: white;
     margin-top: 10px;
   }
@@ -871,16 +868,16 @@ body {
   .profile-pic{
      background-color: rgb(241, 88, 164);
      border-radius: 60% 70% 50% 70%;
-     width: 85%;
+     width: 95%;
      height: 20vh;
      margin-left: 70px;
      padding-top: -50px;
 
   }
   .profile-pic img {
-   margin-top: -30px; 
+   margin-top: -20px; 
    width: 170%;
-   height: 150%;
+   height: 140%;
    
   }
   #download{
@@ -898,15 +895,6 @@ body {
    margin-left: -40px;
    
 }
-.offcanvas {
-  width: 75%; /* Adjust as needed */
-  max-width: 300px;
-  margin-left: -50%; /* Ensure it doesn't take too much space */
-}
-body.offcanvas-open {
-  overflow: hidden;
-}
-
 #home{
   margin-top: -40px;
 }
@@ -919,6 +907,7 @@ body.offcanvas-open {
   margin-left: -50px;
   font-size: 20px;
   color: black;
+ 
   
 }
 #about h2{
@@ -941,7 +930,7 @@ body.offcanvas-open {
 #services h2{
   color: #9400CF; 
   font-size: 50px; 
-  
+  margin-top: 150%;
   
 }
 .div-s {
