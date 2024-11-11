@@ -754,7 +754,13 @@ body {
 
 
 /* Portrait Mode (Mobile) */
-@media screen and (orientation:portrait){
+@media  screen and (max-width: 480px) and (orientation: portrait){
+  body 
+  { 
+    overflow-x: hidden; 
+    margin: 0; 
+    padding: 0;
+  }
   .fade-project{
     animation: none;
   }
@@ -807,8 +813,8 @@ body {
     display: block;
     margin-top: 15px;
     padding: 1px;
-    margin-left: -30px;
-    
+    margin-left: 30px;
+
    }
    .logo{
     margin-left: 80px;
@@ -897,8 +903,14 @@ body {
 }
 #home{
   margin-top: -40px;
+ 
 }
+#about{
+  margin-bottom: 50%;
+}
+
 .about-title{
+ 
   border: 1px solid #7d2ae8;
   border-radius: 2% 2% 2% 2%;
   padding: 20px;
@@ -907,12 +919,12 @@ body {
   margin-left: -50px;
   font-size: 20px;
   color: black;
- 
   
 }
+
 #about h2{
   color: #9400CF; 
-  font-size: 30px; 
+  font-size: 50px; 
   padding-bottom: 20px;
   margin-top: -50%;
 }
@@ -930,7 +942,7 @@ body {
 #services h2{
   color: #9400CF; 
   font-size: 50px; 
-  margin-top: 150%;
+  margin-top: 80%;
   
 }
 .div-s {
