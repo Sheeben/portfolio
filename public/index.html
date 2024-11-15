@@ -68,7 +68,8 @@
         <div class="hero-content">
           <p class="intro">Hello, it's me</p>
           <h1 class="name">Sheetal</h1>
-          <p class="para">And I'm a <span class="highlight" id="changing-title"></span></p>
+          <p class="para">And I'm a  <span id="element"></span></p>
+         
           <p class="title">Creating modern, responsive websites with a focus on user experience.</p>
           <a href="docs/Sheetal - UI Full Stack Web Developer.pdf" download="Sheetal-Front-End-Developer.pdf">
             <button class="btn btn-light" id="download2"><img src="images/person-cv_15355047.png" alt=""></button>
@@ -501,5 +502,13 @@
   </footer>
 
   <script src="scripts/script.js"></script>
+ 
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full Stack Web Developer', 'UI/UX Developer ', 'MERN Stack Developer'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 </html>

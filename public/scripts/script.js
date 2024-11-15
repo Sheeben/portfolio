@@ -94,17 +94,7 @@ if(progressStartValuefour == progressEndValuefour){
 
 
 
-const titles = ["Full Stack Web Developer", "UI/UX Developer ", "MERN Stack Developer"];
-let index = 0;
 
-function changeTitle() {
-    const titleElement = document.getElementById("changing-title");
-    titleElement.textContent = titles[index];
-    index = (index + 1) % titles.length; // Cycle through the array
-}
-
-// Change title every 3 seconds (3000ms)
-setInterval(changeTitle, 3000);
 
 
 
