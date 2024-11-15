@@ -798,6 +798,7 @@ body {
 
   .modal-footer div {
       margin: 10px 0; /* Add spacing between sections */
+      padding-left: 50px;
   }
 
   
