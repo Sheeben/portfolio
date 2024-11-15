@@ -742,12 +742,7 @@ body {
   display: none;
 }
 
-.modal-one{
-  display: block;
-}
-.modal-two{
-  display: none;
-}
+
 
 
 
@@ -761,11 +756,44 @@ body {
 
 
 /* Portrait Mode (Mobile) */
-@media  (max-width:768px){
- 
+@media  screen and (max-width: 480px) and (orientation: portrait){
+  body 
+  { 
+   overflow-x: hidden;
+    margin: 0; 
+    padding: 0;
+  }
   .fade-project{
     animation: none;
   }
+
+
+
+
+
+  .modal-content {
+      width: 90%; /* Increase the width for smaller screens */
+      padding: 15px; /* Reduce padding for better fit */
+  }
+
+  .modal-header, .modal-footer {
+      flex-direction: column; /* Stack header and footer content vertically */
+      align-items: center;
+  }
+
+  .modal-header h3, .modal-footer p {
+      font-size: 1.2em; /* Adjust font size */
+  }
+
+  .modal-footer button {
+      font-size: 1em; /* Adjust button size */
+      padding: 10px; /* Reduce button padding */
+  }
+
+  .modal-footer div {
+      margin: 10px 0; /* Add spacing between sections */
+  }
+
   
   
 .fade-skill{
@@ -935,12 +963,6 @@ body {
 .modal-footer #div2 {
   margin-right: 80px;
   margin-top: 20px;
-}
-.modal-one{
-  display: none;
-}
-.modal-two{
-  display: block;
 }
 
 
