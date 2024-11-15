@@ -742,7 +742,12 @@ body {
   display: none;
 }
 
-
+.modal-one{
+  display: block;
+}
+.modal-two{
+  display: none;
+}
 
 
 
@@ -756,13 +761,8 @@ body {
 
 
 /* Portrait Mode (Mobile) */
-@media  screen and (max-width: 480px) and (orientation: portrait){
-  body 
-  { 
-   overflow-x: hidden;
-    margin: 0; 
-    padding: 0;
-  }
+@media  (max-width:768px){
+ 
   .fade-project{
     animation: none;
   }
@@ -935,6 +935,12 @@ body {
 .modal-footer #div2 {
   margin-right: 80px;
   margin-top: 20px;
+}
+.modal-one{
+  display: none;
+}
+.modal-two{
+  display: block;
 }
 
 
