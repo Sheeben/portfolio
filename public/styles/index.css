@@ -748,7 +748,10 @@ body {
   display: none;
 }
 
-
+.container {
+  width: 1200px; /* Fixed width for desktop-like layout */
+  margin: 0 auto;
+}
 
 
 
@@ -774,7 +777,9 @@ body {
     animation: none;
   }
 
-
+  .container {
+    width: 100%; /* Full width for mobile */
+  }
 
 
 
