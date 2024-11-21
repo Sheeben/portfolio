@@ -765,6 +765,7 @@ body {
 @media screen and (orientation: portrait){
   body 
   { 
+    width: 100%;
    overflow-x: hidden;
     margin: 0; 
     padding: 0;
