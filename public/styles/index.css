@@ -770,9 +770,7 @@ body {
     margin: 0; 
     padding: 0;
   }
-  .fade-project{
-    animation: none;
-  }
+ 
 
 
 
@@ -804,13 +802,7 @@ body {
 
   
   
-.fade-skill{
-  animation: none;
-}
-.fade-services{
-  animation: none;
-}
- 
+
   
  
   
