@@ -237,15 +237,33 @@ body {
   }
   #card-div-one{
     margin-right: 5%;
+    background-image: url("../images/food.png");
+   background-size: cover;
+   background-repeat: no-repeat;
   }
   #card-div-two{
    margin-left: 5%;
+   background-image: url("../images/travelling.png");
+   background-size: cover;
+   background-repeat: no-repeat;
   }
-  #card-div-three{
-    margin-right: 5%;
+
+    #card-div-three {
+      margin-right: 5%;
+      background-image: url("../images/farmer.png"), url("../images/farmer.png");
+      background-size: 50% 100%, 50% 100%; /* First image takes 50% width, second image the other 50% */
+      background-position: left, right; /* Position first image on the left, second on the right */
+      background-repeat: no-repeat, no-repeat; /* Ensure both images do not repeat */
+      height: 400px; /* Adjust height as per your design */
   }
+  
+  
   #card-div-four{
    margin-left: 5%;
+   background-image: url("../images/Screenshot\ 2025-01-07\ 195210.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   
   }
   #div-pro-one{
     display: grid; 
@@ -256,21 +274,20 @@ body {
   #div-pro-one div {
     height: 50vh
   }
-  #div-pro-one img{
-    width: 15%; 
-    height: 28%;
-    margin-left: 42%; 
-    margin-top: 20px; 
-    border-radius: 50% 50% 50% 50%;
-  }
-  #div-pro-one span{
-    color: #9400CF; 
+ 
+  #div-pro-one p{
+    
+    width: 25%;
+    color: white; 
     font-size: 50px; 
+    background-color: #ad1397;
   }
   #div-pro-one a{
+    width: 25%;
     text-decoration: none; 
-    color: black; 
+    color: white; 
     font-size: 25px;
+    background-color: #ad1397;
   }
 
   #div-pro-two{
@@ -282,22 +299,22 @@ body {
   #div-pro-two div{
     height: 50vh;
   }
-  #div-pro-two img{
-    width: 15%; 
-    height: 28%; 
-    margin-left: 42%; 
-    margin-top: 20px; 
-    border-radius: 50% 50% 50% 50%;
-  }
+ 
 
-  #div-pro-two span{
-    color: #9400CF; 
+  #div-pro-two p{
+   
+    width: 25%;
+    color: white; 
     font-size: 50px; 
+    background-color: #ad1397;
   }
   #div-pro-two a{
+
+    width: 25%;
     text-decoration: none; 
-    color: black; 
+    color: white; 
     font-size: 25px;
+    background-color: #ad1397;
   }
 
   
