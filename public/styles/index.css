@@ -309,7 +309,7 @@ body {
     background-color: #ad1397;
   }
   #div-pro-two a{
-
+   
     width: 25%;
     text-decoration: none; 
     color: white; 
@@ -1409,94 +1409,60 @@ color: #606060;
   margin-right: -40px;
   }
  
-  #projects{
-    background: rgb(88,15,146);
-    background: linear-gradient(90deg, rgba(88,15,146,1) 12%, rgba(255,0,199,1) 96%);
-    height: 300vh;
-    width: 100%;
-  }
-  #projects h2{
-    color: white; 
-    font-size: 30px; 
-    padding-bottom: 50px;
-  }
-   #card-div-one{
-    margin-left: -15%;
-    width: 90%;
-  }
-  #card-div-two{
-    margin-left: -15%;
-    width: 90%;
-  }
-  #card-div-three{
-    margin-left: -15%;
-    width: 90%;
-  }
-  #card-div-four{
-    margin-left: -15%;
-    width: 90%;
-  }
-  #div-pro-one{
-    display: block;
-    justify-content:baseline; 
-    width: 180%;
-    margin-left: -10%;
-  }
-  #div-pro-one div{
-    height: 50vh
-    
-  }
- 
   
-  #div-pro-one img{
-    width: 15%; 
-    height: 28%;
-    margin-left: 42%; 
-    margin-top: 20px; 
-    border-radius: 50% 50% 50% 50%;
-  }
-  #div-pro-one span{
-    color: #9400CF; 
-    font-size: 50px; 
-  }
-  #div-pro-one a{
-    text-decoration: none; 
-    color: black; 
-    font-size: 25px;
-  }
-
-  #div-pro-two{
-    display: block;
-    justify-content:baseline;
+    #projects {
+      height: auto; /* Adjust height for portrait mode */
+      padding: 20px;
+      background: linear-gradient(90deg, rgba(88, 15, 146, 1) 20%, rgba(255, 0, 199, 1) 80%);
+    }
   
-    width: 180%;
-    margin-left: -10%;
-  }
+    #projects h2 {
+      font-size: 35px; /* Reduce font size for smaller screens */
+      padding-bottom: 20px;
+    }
   
-  #div-pro-two div{
-    height: 50vh;
-    
-  }
+    #card-div-one, #card-div-two, #card-div-three, #card-div-four {
+      margin: 10px auto; /* Center the cards and add vertical spacing */
+      width: 90%; /* Make cards fit narrower screens */
+      height: 250px; /* Adjust height to maintain proportions */
+      background-size: contain; /* Ensure the entire image fits within the card */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent tiling */
+    }
+  
+    #card-div-three {
+      background-image: url("../images/farmer.png"); /* Use a single image for simplicity in portrait mode */
+      background-size: cover; /* Cover the card while maintaining the image aspect ratio */
+      background-position: center; /* Center the image */
+    }
+  
+    #div-pro-one, #div-pro-two {
+      display: flex; /* Use flexbox for easier stacking */
+      flex-direction: column; /* Stack items vertically */
+      margin: 0;
+      padding: 10px;
+    }
+  
+    #div-pro-one div, #div-pro-two div {
+      height: auto; /* Allow height to adjust naturally */
+      margin-bottom: 20px;
+    }
+  
+    #div-pro-one p, #div-pro-two p {
+      margin-left: 30%;
+      width: 50%; /* Take full width */
+      font-size: 20px; /* Reduce font size */
+      text-align: center; /* Center align text */
+    }
+  
+    #div-pro-one a, #div-pro-two a {
+      margin-left: 30%;
+      width: 50%; /* Take full width */
+      font-size: 20px; /* Adjust font size */
+      text-align: center; /* Center align links */
+    }
   
   
-  #div-pro-two img{
-    width: 15%; 
-    height: 28%; 
-    margin-left: 42%; 
-    margin-top: 20px; 
-    border-radius: 50% 50% 50% 50%;
-  }
-
-  #div-pro-two span{
-    color: #9400CF; 
-    font-size: 50px; 
-  }
-  #div-pro-two a{
-    text-decoration: none; 
-    color: black; 
-    font-size: 25px;
-  }
-
 
   
   #contact{
@@ -1517,16 +1483,16 @@ color: #606060;
     padding-bottom: 50px;
   }
   #contact input{
-    margin-left: 15%;
+    margin-left: 5%;
     padding-left: 5%;
     padding-right: 5%;
   }
   #contact label{
     margin-left: 15%;
-    font-size: 18px;
+    font-size: 20px;
   }
   #contact textarea{
-    margin-left: 15%;
+    margin-left: 5%;
     font-size: 18px;
   }
   #emailForm{
@@ -1550,7 +1516,7 @@ color: #606060;
     font-size: 18px;
     margin-top: 10px;
     color: white;
-    margin-left: 25%;
+    margin-left: 15%;
   }
   #emailForm input::placeholder{
     font-size: 15px;
