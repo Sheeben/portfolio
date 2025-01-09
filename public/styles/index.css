@@ -270,24 +270,26 @@ body {
     grid-template-columns: 6fr 6fr; 
     margin: 20px; 
     padding: 20px;
+  
   }
   #div-pro-one div {
     height: 50vh
   }
  
   #div-pro-one p{
-    
+    margin-left: 40%;
     width: 25%;
     color: white; 
     font-size: 50px; 
-    background-color: #ad1397;
+    
   }
   #div-pro-one a{
+    margin-left: 40%;
     width: 25%;
     text-decoration: none; 
     color: white; 
     font-size: 25px;
-    background-color: #ad1397;
+   
   }
 
   #div-pro-two{
@@ -302,19 +304,19 @@ body {
  
 
   #div-pro-two p{
-   
+    margin-left: 40%;
     width: 25%;
     color: white; 
     font-size: 50px; 
-    background-color: #ad1397;
+    
   }
   #div-pro-two a{
-   
+    margin-left: 40%;
     width: 25%;
     text-decoration: none; 
     color: white; 
     font-size: 25px;
-    background-color: #ad1397;
+    
   }
 
   
